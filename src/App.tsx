@@ -1,5 +1,5 @@
 import './App.css';
-import Login from './container/login';
+import Login from '@/container/login';
 function App() {
   return (
     <>

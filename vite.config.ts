@@ -7,5 +7,10 @@ export default defineConfig({
   plugins: [react(), eslint()],
   server: {
     allowedHosts: ['abc.console.ksyun.com'],
-  }
+  },
+  resolve: {
+    alias: {
+      '@': '/src',
+    },
+  },
 });
